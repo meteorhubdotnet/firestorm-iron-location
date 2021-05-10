@@ -15,7 +15,7 @@ Package.on_use(function (api) {
   api.use('meteorhubdotnet:firestorm-iron-core');
   api.imply('meteorhubdotnet:firestorm-iron-core');
 
-  api.use('meteorhubdotnet:iron-url');
+  api.use('meteorhubdotnet:firestorm-iron-url');
 
   api.use('appcache', {weak: true});
 
